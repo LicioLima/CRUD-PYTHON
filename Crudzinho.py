@@ -19,7 +19,7 @@ print("Conexão Bem Sucedida")
 cursor = conexao.cursor()
 
 comando = """INSERT INTO tb_Embaixadores (ID_Embaixador, Nome, Data_Nascimento, Sexo, Data_Inicio, Matricula)
-VALUES (5, 'Filispe', '1993-12-08','M', GETDATE(), 'E758040')"""
+VALUES (6, 'Laisa', '2003-09-27','F', GETDATE(), 'E758050')"""
 
 cursor.execute(comando)
 
